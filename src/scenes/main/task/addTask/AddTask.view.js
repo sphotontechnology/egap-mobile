@@ -16,7 +16,6 @@ import { launchCamera } from 'react-native-image-picker';
 import { IC_CAMERA, IC_UPLOAD, IMG_CLOSE } from '../../../../assets/path';
 import { showAlertNotification } from '../../../../utils/alert';
 import AppLoading from '../../../../components/AppLoading';
-import * as ImagePicker from 'expo-image-picker';
 import DeviceInfo from 'react-native-device-info'
 import moment from "moment";
 
