@@ -4,7 +4,7 @@ import {combineReducers} from 'redux';
 import processReducer from './processReducer';
 import otherReducer from './otherReducer';
 import auth from './authReducer';
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import {persistReducer} from 'redux-persist';
 import connectReducer from './connectReducer';
 import errorReducer from './errorReducer';

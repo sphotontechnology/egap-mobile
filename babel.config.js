@@ -24,7 +24,7 @@ module.exports = function (api) {
     'react-native-reanimated/plugin',
   ];
   return {
-    presets: ['module:metro-react-native-babel-preset'],
+    presets: ['module:@react-native/babel-preset'],
     env: {
       production: {
         plugins: plugins.concat('transform-remove-console'),

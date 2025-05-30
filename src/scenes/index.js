@@ -1,16 +1,16 @@
-import React, {useEffect, useState, useCallback} from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import NetInfo from '@react-native-community/netinfo';
 import RootNavigator from 'routers/RootNavigator';
-import {onAppConnectivityChange} from 'appRedux/actions/connectActions';
-import {useActions} from 'hooks/useActions';
+import { onAppConnectivityChange } from 'appRedux/actions/connectActions';
+import { useActions } from 'hooks/useActions';
 import useSelectorShallow from 'hooks/useSelectorShallowEqual';
-import {getIsLoadingSelector} from 'appRedux/selectors/loadingSelector';
-import {getIsConnectedSelector} from 'appRedux/selectors/connectSelector';
-import {getErrorSelector} from 'appRedux/selectors/errorSelector';
-import {hideError} from 'appRedux/actions/alertActions';
+import { getIsLoadingSelector } from 'appRedux/selectors/loadingSelector';
+import { getIsConnectedSelector } from 'appRedux/selectors/connectSelector';
+import { getErrorSelector } from 'appRedux/selectors/errorSelector';
+import { hideError } from 'appRedux/actions/alertActions';
 import DialogAlertNotification from 'components/Dialog/DialogAlertNotification';
 import AppLoading from 'components/AppLoading';
-import {getActiveRouteName} from 'utils/activeRouteName';
+import { getActiveRouteName } from 'utils/activeRouteName';
 import {
   BackHandler,
   Alert,
@@ -21,11 +21,11 @@ import {
 import SCENE_NAMES from 'constants/sceneName';
 import NavigationServices from 'utils/navigationServices';
 import I18n from 'utils/i18n';
-import {COLOR_PRIMARY} from 'constants/colors';
+import { COLOR_PRIMARY } from 'constants/colors';
 
 export default function Scenes() {
   const isConnected = useSelectorShallow(getIsConnectedSelector);
-  const actions = useActions({onAppConnectivityChange, hideError});
+  const actions = useActions({ onAppConnectivityChange, hideError });
   const [currentRouteName, setCurrentRouteName] = useState('');
   const isLoading = useSelectorShallow(getIsLoadingSelector);
   const error = useSelectorShallow(getErrorSelector);
@@ -69,7 +69,7 @@ export default function Scenes() {
     const subscribeNetInfo = NetInfo.addEventListener(netInfoListener);
     const backHandler = BackHandler.addEventListener(
       'hardwareBackPress',
-      handleBackPress,
+      handleBackPress
     );
     return () => {
       subscribeNetInfo();
@@ -103,7 +103,7 @@ export default function Scenes() {
           buttonNeutral: 'Hỏi lại sau',
           buttonNegative: 'Đóng',
           buttonPositive: 'Đồng ý',
-        },
+        }
       );
       if (granted === PermissionsAndroid.RESULTS.GRANTED) {
       } else {
@@ -121,7 +121,7 @@ export default function Scenes() {
           buttonNeutral: 'Hỏi lại sau',
           buttonNegative: 'Đóng',
           buttonPositive: 'Đồng ý',
-        },
+        }
       );
       if (granted === PermissionsAndroid.RESULTS.GRANTED) {
       } else {
