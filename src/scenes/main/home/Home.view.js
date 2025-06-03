@@ -1,6 +1,5 @@
-/* eslint-disable react-native/no-inline-styles */
 import * as React from 'react';
-import {View, Text} from 'react-native';
+import { View, Text } from 'react-native';
 import styles from './Home.styles';
 import withLoading from 'components/HOC/withLoading';
 import ScrollViewPullRefresh from 'components/ScrollViewPullRefresh';

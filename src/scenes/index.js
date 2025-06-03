@@ -137,7 +137,7 @@ export default function Scenes() {
     <>
       <RootNavigator onNavigationStateChange={onNavigationStateChange} />
       {/*<DialogAlertNotification onPressHide={actions.hideError} error={error} />*/}
-      {isLoading && <AppLoading />}
+      {/*{isLoading && <AppLoading />}*/}
     </>
   );
 }

@@ -1,22 +1,22 @@
-import React, {useLayoutEffect, useCallback, useState} from 'react';
+import React, { useLayoutEffect, useCallback, useState } from 'react';
 import ListTaskView from './ListTask.view';
 import useSelectorShallow, {
   selectorWithProps,
 } from 'hooks/useSelectorShallowEqual';
-import {getIsFetchingByActionsTypeSelector} from 'appRedux/selectors/loadingSelector';
-import NavigationServices, {getParams} from 'utils/navigationServices';
+import { getIsFetchingByActionsTypeSelector } from 'appRedux/selectors/loadingSelector';
+import NavigationServices, { getParams } from 'utils/navigationServices';
 import SCENE_NAMES from 'constants/sceneName';
-import {getTaskListApi} from 'services/api/taskApi';
-import {useEffect} from 'react';
-import {useIsFocused} from '@react-navigation/native';
+import { getTaskListApi } from 'services/api/taskApi';
+import { useEffect } from 'react';
+import { useIsFocused } from '@react-navigation/native';
 const loadingSelector = selectorWithProps(getIsFetchingByActionsTypeSelector, [
   // ACTION.HANDLER,
 ]);
 
-export default function ListTaskContainer({navigation, route}) {
+export default function ListTaskContainer({ navigation, route }) {
   const isLoading = useSelectorShallow(loadingSelector);
   const [listTask, setArray] = useState([]);
-  const {productInfo} = getParams(route);
+  const { productInfo } = getParams(route);
   const productId = productInfo.id_product;
   // const [isItemDeleted, setIsItemDeleted] = useState(true);
   const isFocused = useIsFocused();

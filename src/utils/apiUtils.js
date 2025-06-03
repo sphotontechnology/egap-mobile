@@ -26,12 +26,12 @@ export default class APIUtils {
         })
         .then((response) => {
           // console.log('>>>>>>> Response >>>>>> : ', response);
-          const {data} = response;
+          const { data } = response;
           resolve(data);
         })
         .catch((err) => {
           reject(err);
-        }),
+        })
     );
   }
 
@@ -47,7 +47,7 @@ export default class APIUtils {
           },
         })
         .then((response) => {
-          const {data} = response;
+          const { data } = response;
           // if (data && data.status) {
           resolve(data);
           // } else {
@@ -77,7 +77,7 @@ export default class APIUtils {
         })
         .then((response) => {
           // console.log('>>>>>>> Response>>>>>> : ', response);
-          const {data} = response;
+          const { data } = response;
           resolve(data);
         })
         .catch((err) => {
@@ -96,12 +96,12 @@ export default class APIUtils {
           },
         })
         .then((response) => {
-          const {data} = response;
+          const { data } = response;
           resolve(data);
         })
         .catch((err) => {
           reject(err);
-        }),
+        })
     );
   }
 }

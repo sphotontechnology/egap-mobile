@@ -10,30 +10,30 @@ import React from "react";
 import Promise from "bluebird";
 
 Promise.config({
-    warnings: {
-        wForgottenReturn: false,
-    },
+  warnings: {
+    wForgottenReturn: false,
+  },
 });
 
 LogBox.ignoreAllLogs(true);
 
 global.Promise = Promise;
 global.onunhandledrejection = function onunhandledrejection(error) {
-    if (error instanceof Error) {
-        //console.error("ERR onunhandledrejection", error);
-        // console.trace(error)
-    } else {
-        console.log("global.onunhandledrejection ", error);
-    }
+  if (error instanceof Error) {
+    //console.error("ERR onunhandledrejection", error);
+    // console.trace(error)
+  } else {
+    console.log('global.onunhandledrejection ', error);
+  }
 };
 
 function HeadlessCheck({ isHeadless }) {
-    if (isHeadless) {
-        // App has been launched in the background by iOS, ignore
-        return null;
-    }
+  if (isHeadless) {
+    // App has been launched in the background by iOS, ignore
+    return null;
+  }
 
-    return <MyApp />;
+  return <MyApp />;
 }
 
 AppRegistry.registerComponent(appName, () => HeadlessCheck);

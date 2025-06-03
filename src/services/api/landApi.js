@@ -4,7 +4,7 @@ import AppConfigs from 'components/index.js/configs/appConfigs';
 const END_POINT = AppConfigs.END_POINT;
 
 export const getLandListApi = (id) => {
-  return utils.get(`${END_POINT}/showArea/` + id);
+  return utils.get(`${END_POINT}/showArea/${id}`);
 };
 export const getOwnerListApi = (id) => {
   return utils.get(`${END_POINT}/owner/owner_production/` + id);
