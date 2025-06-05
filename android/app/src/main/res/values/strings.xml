@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Egap</string>
-    <string name="CodePushDeploymentKey" moduleConfig="true">fn68o-0actWZoviMP-TB-irvspZwf7aIk8CO_</string>
+    <string name="CodePushDeploymentKey" moduleConfig="true">lkq3SNNDEEim20Sj3V5jJ9GdkMRmVydjfePAWg</string>
+    <string name="CodePushServerUrl" moduleConfig="true">https://api.revopush.org</string>
 </resources>
