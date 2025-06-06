@@ -8,19 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* egapv2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* egapv2Tests.m */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		199498B84769430CBC635833 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C202E177565492EB64836DA /* Inter-Light.ttf */; };
-		28ADD3022B6416FD61DB2F5B /* libPods-egapv2-egapv2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 060FFCC920D3A70CCD11F52F /* libPods-egapv2-egapv2Tests.a */; };
-		39BD0BE44D09B035A0206AB7 /* libPods-egapv2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C062CD5DDD4871E1C11CF3A3 /* libPods-egapv2.a */; };
-		50800DF3DF0C5D2F30C72DD3 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB714A2DA7C03A51CDBFE1D1 /* ExpoModulesProvider.swift */; };
+		44AC3264F3A97CBD8EBAF211 /* libPods-egapv2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD5580D01B597EC10F5BC17 /* libPods-egapv2.a */; };
 		705F7EFEF5AC4788A6011B07 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85A51911515F48959E4682C7 /* Inter-ExtraBold.ttf */; };
 		7099E10B62374AA9B0998C77 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EBD074DC6D6421297A9386C /* Inter-SemiBold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8261CA5D400C44BBBD46146B /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E648C81D22AD4A8BBD7DA773 /* Inter-Thin.ttf */; };
+		867510A72DF2DC61005097ED /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		8787D5D10AAE4F09853F2D1A /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BC4BDF4F97E40A8B64D96DF /* Inter-Regular.ttf */; };
 		9F55F42D88BD4D29B632548A /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD04B2300AFF4963A1DAB638 /* Inter-ExtraLight.ttf */; };
+		ACC5F450438CC7380D7CB396 /* libPods-egapv2-egapv2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72967915F44882E854CD0263 /* libPods-egapv2-egapv2Tests.a */; };
 		ADDD27F147F5447D9B1D9434 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F456F07302440049394BAD6 /* Inter-Bold.ttf */; };
 		D593CE365B01B1B9ADB18770 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AFAAAAF88D7C4F00453D18 /* ExpoModulesProvider.swift */; };
 		EF3FFFD4029E498A9853767A /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 282422B4982A4DD386486819 /* Inter-Black.ttf */; };
@@ -41,42 +40,42 @@
 		00E356EE1AD99517003FC87E /* egapv2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = egapv2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* egapv2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = egapv2Tests.m; sourceTree = "<group>"; };
-		060FFCC920D3A70CCD11F52F /* libPods-egapv2-egapv2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-egapv2-egapv2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EBD074DC6D6421297A9386C /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../src/assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		124AE973AF154F4CA1F0E7A8 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* egapv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = egapv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = egapv2/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = egapv2/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = egapv2/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = egapv2/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = egapv2/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = egapv2/main.m; sourceTree = "<group>"; };
 		1A8D351359E348B688982B05 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		1C202E177565492EB64836DA /* Inter-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Light.ttf"; path = "../src/assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; };
+		21FED60F8AF93641214D12BB /* Pods-egapv2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egapv2.release.xcconfig"; path = "Target Support Files/Pods-egapv2/Pods-egapv2.release.xcconfig"; sourceTree = "<group>"; };
 		282422B4982A4DD386486819 /* Inter-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Black.ttf"; path = "../src/assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; };
 		2A0A8331293E48D2A30A002F /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		2A9CACD71947412EBAD1836C /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		2C4D1B29663C4B37B9423CA2 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
-		36F717E3E66968F0A37C18A5 /* Pods-egapv2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egapv2.debug.xcconfig"; path = "Target Support Files/Pods-egapv2/Pods-egapv2.debug.xcconfig"; sourceTree = "<group>"; };
+		2E9D719F50D225F8BF46ED5D /* Pods-egapv2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egapv2.debug.xcconfig"; path = "Target Support Files/Pods-egapv2/Pods-egapv2.debug.xcconfig"; sourceTree = "<group>"; };
 		3B7A20DA17BD42C1AB2E21AA /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		4BD5580D01B597EC10F5BC17 /* libPods-egapv2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-egapv2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A77C50DA8CEB54AB807877 /* Pods-egapv2-egapv2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egapv2-egapv2Tests.release.xcconfig"; path = "Target Support Files/Pods-egapv2-egapv2Tests/Pods-egapv2-egapv2Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5AC7AF645F824628B2530A58 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
-		60F2035AB562157D3F19A6CC /* Pods-egapv2-egapv2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egapv2-egapv2Tests.debug.xcconfig"; path = "Target Support Files/Pods-egapv2-egapv2Tests/Pods-egapv2-egapv2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		663FE44A4CC24D1FA6480B56 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		6CE7659964704EB087F4D785 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		6E9828344CA84E6096C5D3E8 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		6F456F07302440049394BAD6 /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../src/assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		72967915F44882E854CD0263 /* libPods-egapv2-egapv2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-egapv2-egapv2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB51F6C334F42499E62F735 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = egapv2/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85A51911515F48959E4682C7 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBold.ttf"; path = "../src/assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
-		8702EACCDC8F76707A347790 /* Pods-egapv2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egapv2.release.xcconfig"; path = "Target Support Files/Pods-egapv2/Pods-egapv2.release.xcconfig"; sourceTree = "<group>"; };
+		8CE03C0DC6D1E86359C3BBAB /* Pods-egapv2-egapv2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egapv2-egapv2Tests.debug.xcconfig"; path = "Target Support Files/Pods-egapv2-egapv2Tests/Pods-egapv2-egapv2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		947C861B5C4C4BF5A2B33114 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
 		98AFAAAAF88D7C4F00453D18 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-egapv2-egapv2Tests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		9BC4BDF4F97E40A8B64D96DF /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../src/assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
 		9E334513187E42A9808D4076 /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../src/assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		A3FDA7FBF06040DC8C813967 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		A57FA8EE18354AC587854C7D /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
-		ABA8BC8BD8D53960A83463CB /* Pods-egapv2-egapv2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egapv2-egapv2Tests.release.xcconfig"; path = "Target Support Files/Pods-egapv2-egapv2Tests/Pods-egapv2-egapv2Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B9D145FD79764218BE45B574 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
-		C062CD5DDD4871E1C11CF3A3 /* libPods-egapv2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-egapv2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8366D9D55E84C068AFD751B /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
 		D7E0520CC3F843C5A7439DF2 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		DA77BD387ADB44E8AC07272B /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
@@ -92,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28ADD3022B6416FD61DB2F5B /* libPods-egapv2-egapv2Tests.a in Frameworks */,
+				ACC5F450438CC7380D7CB396 /* libPods-egapv2-egapv2Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39BD0BE44D09B035A0206AB7 /* libPods-egapv2.a in Frameworks */,
+				44AC3264F3A97CBD8EBAF211 /* libPods-egapv2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
@@ -149,8 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				C062CD5DDD4871E1C11CF3A3 /* libPods-egapv2.a */,
-				060FFCC920D3A70CCD11F52F /* libPods-egapv2-egapv2Tests.a */,
+				4BD5580D01B597EC10F5BC17 /* libPods-egapv2.a */,
+				72967915F44882E854CD0263 /* libPods-egapv2-egapv2Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -158,10 +157,10 @@
 		360DD092E9AE71AEF0187564 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				36F717E3E66968F0A37C18A5 /* Pods-egapv2.debug.xcconfig */,
-				8702EACCDC8F76707A347790 /* Pods-egapv2.release.xcconfig */,
-				60F2035AB562157D3F19A6CC /* Pods-egapv2-egapv2Tests.debug.xcconfig */,
-				ABA8BC8BD8D53960A83463CB /* Pods-egapv2-egapv2Tests.release.xcconfig */,
+				2E9D719F50D225F8BF46ED5D /* Pods-egapv2.debug.xcconfig */,
+				21FED60F8AF93641214D12BB /* Pods-egapv2.release.xcconfig */,
+				8CE03C0DC6D1E86359C3BBAB /* Pods-egapv2-egapv2Tests.debug.xcconfig */,
+				50A77C50DA8CEB54AB807877 /* Pods-egapv2-egapv2Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -258,12 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "egapv2Tests" */;
 			buildPhases = (
-				9741B4D5D2C946E910E0A79F /* [CP] Check Pods Manifest.lock */,
+				49E928FEBFA7924DB6D79900 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				B9DB9BB913241B5FCF491CC6 /* [CP] Embed Pods Frameworks */,
-				D7715437049EB57BF17D4C0E /* [CP] Copy Pods Resources */,
+				2745FB605F7F7E24921D3399 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,14 +277,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "egapv2" */;
 			buildPhases = (
-				5A90AD890D18338BFE699B66 /* [CP] Check Pods Manifest.lock */,
+				688F4024D2BEB46411D93F41 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				F69B2FE41F82D8D940511538 /* [CP] Embed Pods Frameworks */,
-				ED2EEBCCFADB2761310B938F /* [CP] Copy Pods Resources */,
+				3FA43630632AAB5F4EF54287 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -376,29 +373,41 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		5A90AD890D18338BFE699B66 /* [CP] Check Pods Manifest.lock */ = {
+		2745FB605F7F7E24921D3399 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-egapv2-egapv2Tests/Pods-egapv2-egapv2Tests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-egapv2-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-egapv2-egapv2Tests/Pods-egapv2-egapv2Tests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-egapv2-egapv2Tests/Pods-egapv2-egapv2Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9741B4D5D2C946E910E0A79F /* [CP] Check Pods Manifest.lock */ = {
+		3FA43630632AAB5F4EF54287 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-egapv2/Pods-egapv2-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-egapv2/Pods-egapv2-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-egapv2/Pods-egapv2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49E928FEBFA7924DB6D79900 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -420,72 +429,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B9DB9BB913241B5FCF491CC6 /* [CP] Embed Pods Frameworks */ = {
+		688F4024D2BEB46411D93F41 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-egapv2-egapv2Tests/Pods-egapv2-egapv2Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-egapv2-egapv2Tests/Pods-egapv2-egapv2Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-egapv2-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-egapv2-egapv2Tests/Pods-egapv2-egapv2Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D7715437049EB57BF17D4C0E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-egapv2-egapv2Tests/Pods-egapv2-egapv2Tests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-egapv2-egapv2Tests/Pods-egapv2-egapv2Tests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-egapv2-egapv2Tests/Pods-egapv2-egapv2Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ED2EEBCCFADB2761310B938F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-egapv2/Pods-egapv2-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-egapv2/Pods-egapv2-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-egapv2/Pods-egapv2-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F69B2FE41F82D8D940511538 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-egapv2/Pods-egapv2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-egapv2/Pods-egapv2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-egapv2/Pods-egapv2-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -523,9 +486,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				867510A72DF2DC61005097ED /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-				50800DF3DF0C5D2F30C72DD3 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,7 +504,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60F2035AB562157D3F19A6CC /* Pods-egapv2-egapv2Tests.debug.xcconfig */;
+			baseConfigurationReference = 8CE03C0DC6D1E86359C3BBAB /* Pods-egapv2-egapv2Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -570,7 +532,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABA8BC8BD8D53960A83463CB /* Pods-egapv2-egapv2Tests.release.xcconfig */;
+			baseConfigurationReference = 50A77C50DA8CEB54AB807877 /* Pods-egapv2-egapv2Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -595,7 +557,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36F717E3E66968F0A37C18A5 /* Pods-egapv2.debug.xcconfig */;
+			baseConfigurationReference = 2E9D719F50D225F8BF46ED5D /* Pods-egapv2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -624,7 +586,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8702EACCDC8F76707A347790 /* Pods-egapv2.release.xcconfig */;
+			baseConfigurationReference = 21FED60F8AF93641214D12BB /* Pods-egapv2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -654,7 +616,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -682,7 +644,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -710,8 +672,12 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = false;
 			};
 			name = Debug;
 		};
@@ -720,7 +686,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -748,7 +714,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -768,8 +734,12 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = false;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
