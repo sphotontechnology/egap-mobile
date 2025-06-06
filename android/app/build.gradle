@@ -136,7 +136,7 @@ android {
         applicationId "com.sphoton.agri.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 202506053
+        versionCode 202506062
         versionName "1.7.0"
     }
     splits {

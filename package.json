@@ -7,7 +7,14 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "ios-codepush-staging": "revopush release-react EGapIOS ios -d Staging -t '1.7.0'",
+    "ios-codepush-production": "revopush release-react EGapIOS ios -d Production -t '1.7.0'",
+    "ios-bundle": "react-native bundle --minify --entry-file index.js --platform ios --dev false --bundle-output ios/main.jsbundle --assets-dest ./",
+    "android-codepush-staging": "revopush release-react EGapAndroid android -d Staging -t '1.7.0'",
+    "android-codepush-production": "revopush release-react EGapAndroid android -d Production -t '1.7.0'",
+    "android-clean": "cd android && ./gradlew clean",
+    "android-bundle": "react-native bundle --platform android --dev false 0 --entry-file ./index.js --bundle-output ./android/app/src/main/assets/index.android.bundle --sourcemap-output ./android/app/src/main/assets/index.android.map --assets-dest ./android/app/src/main/res/"
   },
   "dependencies": {
     "@babel/preset-typescript": "^7.16.7",

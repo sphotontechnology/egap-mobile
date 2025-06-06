@@ -218,6 +218,7 @@ function AddTaskView({
                     includeExtra: true,
                     maxHeight: 1500,
                     maxWidth: 2000,
+                    quality: 0.5,
                   },
                   (res) => {
                     if (res?.assets) {
@@ -250,54 +251,6 @@ function AddTaskView({
               style={styles.iconImg}
             />
             <AppText style={styles.textButtonAdd}>Chụp ảnh mới</AppText>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={styles.buttonAdd}
-            onPress={async () => {
-              try {
-                if (listImage.length >= 3) {
-                  showAlertNotification({
-                    message: 'Bạn chỉ được chọn tối đa 3 ảnh',
-                  });
-                  return;
-                }
-                const result = await launchImageLibrary({
-                  mediaType: 'photo',
-                  selectionLimit: 3 - listImage.length,
-                  quality: 0.8,
-                });
-
-                if (result.didCancel) {
-                  return;
-                }
-
-                if (!result.assets || result.assets.length === 0) {
-                  showAlertNotification({
-                    message: 'Không có ảnh được chọn',
-                  });
-                  return;
-                }
-                const newImages = result.assets.map((asset) => ({
-                  uri: asset.uri,
-                  type: asset.type || 'image/jpeg',
-                  name: asset.fileName || asset.uri.split('/').pop(),
-                }));
-                setListImage([...listImage, ...newImages]);
-              } catch (error) {
-                console.log('Lỗi chọn ảnh:', error);
-                showAlertNotification({
-                  message: 'Có lỗi khi chọn ảnh. Vui lòng thử lại.',
-                });
-              } finally {
-              }
-            }}
-          >
-            <Image
-              // source={require('../../../assets/images/logoNew.png')}
-              source={IC_UPLOAD}
-              style={styles.iconImg}
-            />
-            <AppText style={styles.textButtonAdd}>Chọn ảnh có sẵn</AppText>
           </TouchableOpacity>
         </View>
         {/* {response && <AppText>{JSON.stringify(response)}</AppText>} */}
